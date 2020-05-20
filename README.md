@@ -973,7 +973,7 @@ To contribute just open a Pull Request with your new code taking into account th
 
 ## License ##
 
-See: resources/meta/LICENSE.md
+NTI
 
 ## Credits ##
 
