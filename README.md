@@ -32,7 +32,7 @@ This bundle was presented at [Symfony Live Paris 2011](http://www.symfony-live.c
 Require the bundle and its dependencies with composer:
 
 ```bash
-$ composer require php-amqplib/rabbitmq-bundle
+$ composer require nti/rabbitmq-bundle
 ```
 
 Register the bundle:
@@ -60,7 +60,7 @@ Require the bundle in your composer.json file:
 ```
 {
     "require": {
-        "php-amqplib/rabbitmq-bundle": "~1.6",
+        "nti/rabbitmq-bundle": "~1.6",
     }
 }
 ```

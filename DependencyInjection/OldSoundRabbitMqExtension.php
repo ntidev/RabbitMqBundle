@@ -38,6 +38,7 @@ class OldSoundRabbitMqExtension extends Extension
         $this->container = $container;
 
         $loader = new XmlFileLoader($this->container, new FileLocator(array(__DIR__ . '/../Resources/config')));
+        $loader->load('services.xml');
         $loader->load('rabbitmq.xml');
 
         $configuration = $this->getConfiguration($configs, $container);
